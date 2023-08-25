@@ -1,120 +1,872 @@
-
-
 body{
-    background-color: #03053B;
+  background-color: #02053a8f;
+  width: 100%;
+  margin : 0;
+  padding : 0;
 }
 
+.desktop {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
 
+.desktop .div {
+  background-color: #02053a8f;
+  overflow: hidden;
+  width: 100%;
+  height: 4153px;
+  position: relative;
+  margin:0;
+}
 
-.box {
-    position: relative;
-    width: 1266px;
-    height: 62px;
+.desktop .navbar {
+  position: absolute;
+  width: 1276px;
+  height: 62px;
+  top: 55px;
+  left: 94px;
+}
+
+.desktop .astronaut {
+  width: 50px;
+  height: 50px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  object-fit: cover;
+}
+
+.desktop .text-wrapper {
+  width: 117px;
+  top: 22px;
+  left: 116px;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Press Start 2P-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-2 {
+  width: 157px;
+  top: 22px;
+  left: 443px;
+  position: absolute;
+  font-family: "Press Start 2P-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-3 {
+  width: 249px;
+  top: 22px;
+  left: 628px;
+  position: absolute;
+  font-family: "Press Start 2P-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-4 {
+  width: 202px;
+  top: 25px;
+  left: 1064px;
+  position: absolute;
+  font-family: "Press Start 2P-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .phone-call {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 7px;
+  left: 990px;
+  object-fit: cover;
+}
+
+.desktop .text-wrapper-5 {
+  width: 111px;
+  top: 22px;
+  left: 281px;
+  position: absolute;
+  font-family: "Press Start 2P-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .view {
+  position: absolute;
+  width: 1339px;
+  height: 605px;
+  top: 208px;
+  left: 58px;
+}
+
+.desktop .overlap {
+  position: relative;
+  width: 1335px;
+  height: 605px;
+}
+
+.desktop .rectangle {
+  width: 1335px;
+  height: 593px;
+  left: 0;
+  background-color: #fcd50a;
+  border-radius: 16px;
+  position: absolute;
+  top: 0;
+}
+
+.desktop .ellipse {
+  position: absolute;
+  width: 37px;
+  height: 37px;
+  top: 568px;
+  left: 644px;
+  background-color: #ffffff;
+  border-radius: 18.5px;
+}
+
+.desktop .overlap-group-wrapper {
+  position: absolute;
+  width: 632px;
+  height: 590px;
+  top: 2px;
+  left: 688px;
+}
+
+.desktop .overlap-group {
+  position: relative;
+  height: 590px;
+}
+
+.desktop .ellipse-2 {
+  position: absolute;
+  width: 573px;
+  height: 270px;
+  top: 69px;
+  left: 59px;
+  background-color: #ffffffcc;
+  border-radius: 286.31px/135.09px;
+  border: 3px solid;
+  border-color: #000000;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.desktop .element-removebg {
+  position: absolute;
+  width: 632px;
+  height: 590px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.desktop .p {
+  position: absolute;
+  width: 638px;
+  top: 72px;
+  left: 45px;
+  font-family: "Press Start 2P-Regular", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: 46px;
+}
+
+.desktop .span {
+  color: #22253b;
+}
+
+.desktop .text-wrapper-6 {
+  color: #ffffff;
+}
+
+.desktop .text-wrapper-7 {
+  color: #9c0000;
+}
+
+.desktop .onay-code {
+  position: absolute;
+  width: 466px;
+  top: 252px;
+  left: 45px;
+  font-family: "Raleway-Bold", Helvetica;
+  font-weight: 700;
+  color: #22253b;
+  font-size: 25px;
+  letter-spacing: 3.75px;
+  line-height: 23px;
+}
+
+.desktop .group {
+  position: absolute;
+  width: 323px;
+  height: 70px;
+  top: 443px;
+  left: 29px;
+}
+
+.desktop .overlap-2 {
+  position: relative;
+  width: 321px;
+  height: 70px;
+  background-color: #f15525;
+  border-radius: 82px;
+}
+
+.desktop .arrow {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 29px;
+  left: 259px;
+}
+
+.desktop .text-wrapper-8 {
+  width: 200px;
+  height: 15px;
+  top: 28px;
+  left: 48px;
+  font-family: "Raleway-Regular", Helvetica;
+  color: #ffffff;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: -0.66px;
+  line-height: 21.3px;
+  white-space: nowrap;
+  position: absolute;
+  font-weight: 400;
+}
+
+.desktop .line {
+  position: absolute;
+  width: 499px;
+  height: 5px;
+  top: 211px;
+  left: 45px;
+  object-fit: cover;
+}
+
+.desktop .img {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 579px;
+  left: 656px;
+}
+
+.desktop .overlap-wrapper {
+  position: absolute;
+  width: 1339px;
+  height: 679px;
+  top: 924px;
+  left: 58px;
+}
+
+.desktop .overlap-3 {
+  position: relative;
+  width: 1335px;
+  height: 679px;
+  border-radius: 15px;
+  background: linear-gradient(180deg, rgba(123.25, 127.5, 255, 0.19) 0%, rgba(20.92, 22.38, 66.07, 0.61) 100%);
+}
+
+.desktop .text-wrapper-9 {
+  position: absolute;
+  width: 533px;
+  top: 47px;
+  left: 44px;
+  font-family: "Press Start 2P-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 45px;
+  letter-spacing: 0;
+  line-height: 46px;
+}
+
+.desktop .div-wrapper {
+  position: absolute;
+  width: 480px;
+  height: 242px;
+  top: 207px;
+  left: 44px;
+  background-color: #000000e8;
+  border-radius: 240px/120.84px;
+}
+
+.desktop .overlap-group-2 {
+  position: relative;
+  width: 435px;
+  height: 229px;
+  left: 24px;
+}
+
+.desktop .polygon {
+  position: absolute;
+  width: 104px;
+  height: 23px;
+  top: 118px;
+  left: 162px;
+  object-fit: cover;
+}
+
+.desktop .rectangle-2 {
+  width: 196px;
+  height: 118px;
+  left: 115px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+}
+
+.desktop .onaycode {
+  position: absolute;
+  width: 410px;
+  height: 47px;
+  top: 142px;
+  left: 11px;
+  object-fit: cover;
+}
+
+.desktop .stars-in-logo {
+  position: absolute;
+  width: 435px;
+  height: 196px;
+  top: 33px;
+  left: 0;
+}
+
+.desktop .onay-code-2 {
+  position: absolute;
+  width: 748px;
+  top: 122px;
+  left: 567px;
+  font-family: "Raleway-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 46px;
+}
+
+.desktop .view-2 {
+  position: absolute;
+  width: 1337px;
+  height: 502px;
+  top: 1713px;
+  left: 56px;
+}
+
+.desktop .overlap-4 {
+  position: relative;
+  width: 1331px;
+  height: 502px;
+  border-radius: 50px;
+  background: linear-gradient(180deg, rgba(96.9, 255, 0, 0.77) 1.18%, rgb(252, 213, 11) 100%);
+}
+
+.desktop .arrow-2 {
+  position: absolute;
+  width: 33px;
+  height: 59px;
+  top: 222px;
+  left: 11px;
+}
+
+.desktop .arrow-3 {
+  position: absolute;
+  width: 33px;
+  height: 59px;
+  top: 222px;
+  left: 1283px;
+}
+
+.desktop .overlap-group-3 {
+  position: absolute;
+  width: 482px;
+  height: 100px;
+  top: 100px;
+  left: 142px;
+}
+
+.desktop .text-wrapper-10 {
+  position: absolute;
+  width: 450px;
+  top: 28px;
+  left: 0;
+  font-family: "Press Start 2P-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 60px;
+  letter-spacing: 0;
+  line-height: 46px;
+}
+
+.desktop .python {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 0;
+  left: 382px;
+  object-fit: cover;
+}
+
+.desktop .discord {
+  position: absolute;
+  width: 607px;
+  top: 219px;
+  left: 145px;
+  font-family: "Raleway-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 46px;
+}
+
+.desktop .overlap-5 {
+  position: absolute;
+  width: 495px;
+  height: 433px;
+  top: 23px;
+  left: 767px;
+}
+
+.desktop .text-wrapper-11 {
+  top: 31px;
+  left: 315px;
+  font-family: "Press Start 2P-Regular", Helvetica;
+  color: #ffffff;
+  font-size: 60px;
+  letter-spacing: 0;
+  line-height: 46px;
+  white-space: nowrap;
+  position: absolute;
+  font-weight: 400;
+}
+
+.desktop .astronaut-on-the {
+  position: absolute;
+  width: 400px;
+  height: 433px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.desktop .view-3 {
+  position: absolute;
+  width: 1331px;
+  height: 676px;
+  top: 2325px;
+  left: 56px;
+  border-radius: 50px;
+  background: linear-gradient(180deg, rgba(20.4, 0, 255, 0.77) 1.18%, rgb(252, 213, 11) 100%);
+}
+
+.desktop .group-2 {
+  position: absolute;
+  width: 327px;
+  height: 544px;
+  top: 51px;
+  left: 517px;
+}
+
+.desktop .overlap-group-4 {
+  position: relative;
+  width: 325px;
+  height: 544px;
+  border-radius: 15px;
+  background: linear-gradient(180deg, rgba(55.12, 58.48, 159.38, 0.19) 0%, rgba(20.92, 22.38, 66.07, 0.61) 0.01%);
+}
+
+.desktop .text-wrapper-12 {
+  position: absolute;
+  width: 241px;
+  top: 190px;
+  left: 43px;
+  font-family: "Poller One-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+
+.desktop .ellipse-3 {
+  position: absolute;
+  width: 141px;
+  height: 132px;
+  top: 39px;
+  left: 87px;
+  background-color: #d9d9d9;
+  border-radius: 70.5px/66px;
+}
+
+.desktop .group-3 {
+  position: absolute;
+  width: 327px;
+  height: 544px;
+  top: 51px;
+  left: 907px;
+}
+
+.desktop .group-4 {
+  position: absolute;
+  width: 327px;
+  height: 544px;
+  top: 51px;
+  left: 113px;
+}
+
+.desktop .arrow-4 {
+  position: absolute;
+  width: 33px;
+  height: 59px;
+  top: 305px;
+  left: 11px;
+}
+
+.desktop .arrow-5 {
+  position: absolute;
+  width: 33px;
+  height: 59px;
+  top: 305px;
+  left: 1283px;
+}
+
+.desktop .view-4 {
+  position: absolute;
+  width: 1462px;
+  height: 285px;
+  top: 3877px;
+  left: 3px;
+}
+
+.desktop .overlap-6 {
+  position: relative;
+  width: 1454px;
+  height: 285px;
+  background-color: #080808;
+}
+
+.desktop .text-wrapper-13 {
+  width: 394px;
+  top: 47px;
+  left: 455px;
+  font-family: "Press Start 2P-Regular", Helvetica;
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: 46px;
+  white-space: nowrap;
+  position: absolute;
+  font-weight: 400;
+}
+
+.desktop .group-5 {
+  position: absolute;
+  width: 127px;
+  height: 115px;
+  top: 47px;
+  left: 67px;
+}
+
+.desktop .overlap-group-5 {
+  position: relative;
+  width: 125px;
+  height: 115px;
+}
+
+.desktop .astronaut-2 {
+  width: 100px;
+  height: 100px;
+  left: 12px;
+  position: absolute;
+  top: 0;
+  object-fit: cover;
+}
+
+.desktop .text-wrapper-14 {
+  position: absolute;
+  width: 125px;
+  top: 85px;
+  left: 0;
+  font-family: "Press Start 2P-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 46px;
+  white-space: nowrap;
+}
+
+.desktop .overlap-7 {
+  position: absolute;
+  width: 348px;
+  height: 89px;
+  top: 47px;
+  left: 1039px;
+}
+
+.desktop .overlap-8 {
+  position: absolute;
+  width: 348px;
+  height: 89px;
+  top: 0;
+  left: 0;
+}
+
+.desktop .text-wrapper-15 {
+  width: 348px;
+  top: 0;
+  left: 0;
+  font-family: "Press Start 2P-Regular", Helvetica;
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: 46px;
+  white-space: nowrap;
+  position: absolute;
+  font-weight: 400;
+}
+
+.desktop .text-wrapper-16 {
+  width: 225px;
+  top: 50px;
+  left: 29px;
+  font-family: "Press Start 2P-Regular", Helvetica;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 46px;
+  white-space: nowrap;
+  position: absolute;
+  font-weight: 400;
+}
+
+.desktop .telephone {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 58px;
+  left: 0;
+  object-fit: cover;
+}
+
+.desktop .text-wrapper-17 {
+  position: absolute;
+  width: 283px;
+  top: 146px;
+  left: 1072px;
+  font-family: "Press Start 2P-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 46px;
+  white-space: nowrap;
+}
+
+.desktop .email {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 152px;
+  left: 1039px;
+  object-fit: cover;
+}
+
+.desktop .instagram {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: 118px;
+  left: 446px;
+  object-fit: cover;
+}
+
+.desktop .tik-tok {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: 118px;
+  left: 591px;
+  object-fit: cover;
+}
+
+.desktop .image {
+  position: absolute;
+  width: 87px;
+  height: 87px;
+  top: 108px;
+  left: 723px;
+  object-fit: cover;
+}
+
+.desktop .view-5 {
+  position: absolute;
+  width: 1347px;
+  height: 442px;
+  top: 3111px;
+  left: 51px;
+}
+
+.desktop .overlap-9 {
+  position: relative;
+  width: 1337px;
+  height: 442px;
+  background-color: #fcd50a;
+  border-radius: 25px;
+}
+
+.desktop .overlap-group-6 {
+  position: absolute;
+  width: 988px;
+  height: 88px;
+  top: 59px;
+  left: 184px;
+}
+
+.desktop .text-wrapper-18 {
+  width: 988px;
+  top: -50px;
+  left: 0;
+  font-family: "Press Start 2P-Regular", Helvetica;
+  color: #000000;
+  font-size: 35px;
+  letter-spacing: 0;
+  line-height: 46px;
+  position: absolute;
+  font-weight: 400;
+}
+
+.desktop .text-wrapper-19 {
+  top: 42px;
+  left: 33px;
+  font-family: "Raleway-Regular", Helvetica;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 46px;
+  white-space: nowrap;
+  position: absolute;
+  font-weight: 400;
+}
+
+.desktop .overlap-10 {
+  position: absolute;
+  width: 600px;
+  height: 46px;
+  top: 177px;
+  left: 368px;
+}
+
+.desktop .rectangle-3 {
+  width: 600px;
+  height: 39px;
+  top: 3px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  position: absolute;
+  left: 0;
+  font-family: "Raleway-Regular", Helvetica;
+}
+
+/* .desktop .text-wrapper-20 {
+  top: 0;
+  left: 20px;
+  opacity: 0.6;
+  font-family: "Raleway-Regular", Helvetica;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 46px;
+  white-space: nowrap;
+  position: absolute;
+  font-weight: 400;
+} */
+
+.desktop .overlap-11 {
+  position: absolute;
+  width: 600px;
+  height: 46px;
+  top: 250px;
+  left: 367px;
+}
+
+.desktop .text-wrapper-21 {
+  top: 0;
+  left: 27px;
+  opacity: 0.6;
+  font-family: "Raleway-Regular", Helvetica;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 46px;
+  white-space: nowrap;
+  position: absolute;
+  font-weight: 400;
+}
+
+.desktop .overlap-12 {
+  position: absolute;
+  width: 500px;
+  height: 50px;
+  top: 317px;
+  left: 421px;
+}
+
+.desktop .rectangle-4 {
+  width: 500px;
+  height: 47px;
+  top: 0;
+  background-color: #fbffd2;
+  border-radius: 20px;
+  position: absolute;
+  left: 0;
+}
+
+.desktop .text-wrapper-22 {
+  top: 4px;
+  left: 145px;
+  font-family: "Raleway-Regular", Helvetica;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 46px;
+  white-space: nowrap;
+  position: absolute;
+  font-weight: 400;
 }
 
 a{
-    text-decoration: none;
+  text-decoration: none;
 }
-
-.box .navbar {
-    position: fixed;
-    width: 1276px;
-    height: 62px;
-    top: 0;
-    left: 0;
-    margin-left: 150px;
-    margin-top: 30px;
-}
-  
-  .box .astronaut {
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    top: 0;
-    left: 0;
-    object-fit: cover;
-  }
-  
-  .box .text-wrapper {
-    /* width: 117px; */
-    top: 22px;
-    left: 116px;
-    white-space: nowrap;
-    position: absolute;
-    font-family: "Press Start 2P-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 20px;
-    letter-spacing: 0;
-    line-height: normal;
-
-  }
-  
-  .box .div {
-    /* width: 157px; */
-    top: 22px;
-    left: 443px;
-    position: absolute;
-    font-family: "Press Start 2P-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 20px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .box .text-wrapper-2 {
-    /* width: 249px; */
-    top: 22px;
-    left: 628px;
-    position: absolute;
-    font-family: "Press Start 2P-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 20px;
-    letter-spacing: 0;
-    line-height: normal;
-
-  }
-  
-  .box .text-wrapper-3 {
-    /* width: 202px; */
-    top: 25px;
-    left: 1064px;
-    position: absolute;
-    font-family: "Press Start 2P-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 20px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .box .phone-call {
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    top: 7px;
-    left: 990px;
-    object-fit: cover;
-  }
-  
-  .box .text-wrapper-4 {
-    /* width: 111px; */
-    top: 22px;
-    left: 281px;
-    position: absolute;
-    font-family: "Press Start 2P-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 20px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-
 
 @font-face {
-    font-family: "Press Start 2P-Regular";
-    src: url("fonts/PressStart2P-Regular.ttf");
+  font-family: "Press Start 2P-Regular";
+  src: url(fonts/PressStart2P-Regular.ttf);
 }
