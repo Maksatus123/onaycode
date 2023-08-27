@@ -701,28 +701,28 @@ body{
 
 .desktop .instagram {
   position: absolute;
-  width: 70px;
-  height: 70px;
+  width: 40px;
+  height: 40px;
   top: 118px;
-  left: 446px;
+  left: 500px;
   object-fit: cover;
 }
 
 .desktop .tik-tok {
   position: absolute;
-  width: 70px;
-  height: 70px;
+  width: 40px;
+  height: 40px;
   top: 118px;
-  left: 591px;
+  left: 600px;
   object-fit: cover;
 }
 
-.desktop .image {
+.desktop .tg {
   position: absolute;
-  width: 87px;
-  height: 87px;
-  top: 108px;
-  left: 723px;
+  width: 40px;
+  height: 40px;
+  top: 118px;
+  left: 700px;
   object-fit: cover;
 }
 
@@ -791,6 +791,7 @@ body{
   background-color: #ffffff;
   border-radius: 15px;
   position: absolute;
+  padding-left: 10px;
   left: 0;
   font-family: "Raleway-Regular", Helvetica;
 }
@@ -850,20 +851,21 @@ body{
 }
 
 .desktop .text-wrapper-22 {
-  top: 4px;
-  left: 145px;
   font-family: "Raleway-Regular", Helvetica;
   color: #000000;
   font-size: 20px;
   letter-spacing: 0;
   line-height: 46px;
   white-space: nowrap;
-  position: absolute;
   font-weight: 400;
 }
 
 a{
   text-decoration: none;
+}
+
+.left-arrow-slider:hover, .right-arrow-slider:hover{
+  cursor: pointer;
 }
 
 @font-face {
