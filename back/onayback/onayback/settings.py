@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'user',
     'courses',
+    'corsheaders',
     "phonenumber_field",
 ]
 
@@ -52,7 +53,12 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+      'corsheaders.middleware.CorsMiddleware',
+
 ]
+
+CORS_ORIGIN_ALLOW_ALL = True
+
 
 ROOT_URLCONF = 'onayback.urls'
 

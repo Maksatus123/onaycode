@@ -1,4 +1,4 @@
-
+import React from 'react';
 import './App.css';
 import Courses from './components/Courses';
 import Description from './components/Description';

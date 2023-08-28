@@ -10,8 +10,12 @@ class RegistrationViewSet(CreateAPIView):
     serializer_class = RegistrationSerializer
     queryset = Registration.objects.all()
 
+    def post(self, request, *args, **kwargs):
+        print(request)
+        return self.create(request, *args, **kwargs)
+
+
 #Format
 #name: String
 #phone: +7 ... ... .. ..
-#course: courseID
         

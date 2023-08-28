@@ -1,5 +1,7 @@
 import {useRef, useState, useEffect } from "react";
 import axios from '../api/axios';
+import React from 'react';
+
 
 const Registration = () => {
     const userRef = useRef();
@@ -7,30 +9,23 @@ const Registration = () => {
 
     const [user, setUser] = useState("");
     const [phoneNumber, setPhoneNumber] = useState("");
-    const REGISTER_URL = '/register';
+    const REGISTER_URL = '/user/create';
     
     const handleSubmit = async (e) => {
         e.preventDefault();
-        try {
             const response = await axios.post(REGISTER_URL,
-                JSON.stringify({ user, phoneNumber }),
+                JSON.stringify({ "name": user, "phone": phoneNumber }),
                 {
                     headers: { 'Content-Type': 'application/json' },
-                    withCredentials: true
                 }
-            );
-            console.log(response?.data);
-            console.log(response?.accessToken);
-            console.log(JSON.stringify(response))
-            //clear state and controlled inputs
-            //need value attrib on inputs for this
-            setUser('');
-            phoneNumber("");
-        } catch (err) {
-        }
+            ).then((response)=>{
+                alert("Успешная регистрация!")
+            }).catch((error)=>{
+                alert("Неправильный формат телефона. Нужно: +7**********")
+            }) 
     }
     return (
-    <>
+    
     <form onSubmit={handleSubmit}>
         <div class="view-5" id="registation-block">
             <div class="overlap-9">
@@ -54,9 +49,6 @@ const Registration = () => {
                 </div>
         </div>
     </form>
-    
-    
-    </>
   )
 }
 
