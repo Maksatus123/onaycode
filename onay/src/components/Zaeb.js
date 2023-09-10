@@ -28,8 +28,11 @@ const Zaeb = () => {
             </div>
             <div class="text-wrapper-17">onaycode@gmail.com</div>
             <img class="email" src={email} />
+            <a href = "https://www.instagram.com/onay_code/">
             <img class="instagram" src={inst} />
+            </a>
             <img class="tik-tok" src={tt} />
+            
             <img class="tg" src={telega} />
           </div>
         </div>
